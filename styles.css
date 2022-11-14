@@ -361,3 +361,74 @@ background:#000;
   .banner-text h1{
     font-size: 40px;
   }
+}
+/* footer */
+#footer{
+  padding: 100px 0 20px;
+  background: black;
+}
+.footer-row{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.footer-left h1,h2,p{
+  color:white;
+}
+.footer-right{
+  text-align: right;
+}
+.footer-row h1{
+  margin: 10px 0;
+
+}
+.footer-row p{
+  line-height: 35px;
+}
+.footer-right a{
+  text-decoration: none;
+}
+.social-links{
+  text-align: center;
+}
+.social-links .fa{
+  height: 40px;
+  width: 40px;
+
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  margin:40px 5px 0 ;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.social-links .fa:hover{
+  background: rgba(0, 0, 250, 0.5);
+  color: #fff;
+  transform: translateY(7px);
+}
+.social-links .insta:hover{
+    background: rgba(255, 0,255, 0.7);
+  }
+.social-links p{
+  font-size: 12px;
+  margin-top: 20px;
+
+}
+.social-links a{
+  text-decoration: none;
+}
+@media screen and (max-width:770px){
+  .footer-left,.footer-right{
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+}
