@@ -190,7 +190,9 @@ header button:hover{
   opacity: 0.5;
   text-decoration: line-through;
 }
-
+.product-short-description{
+  color: #000;
+}
 .pre-btn,
 .nxt-btn {
   border: none;
@@ -248,7 +250,7 @@ header button:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 50px;
   text-transform: capitalize;
 }
