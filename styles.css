@@ -333,6 +333,9 @@ background:#000;
   opacity: 1;
   color: #000;
 }
+.product h2,p{
+  color:#000;
+}
 #Gallery .title-text h1{
   color: red;
   font-weight: bolder;
